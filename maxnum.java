@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 class array
 {
-public satatic void main(String arg[])
+public static void main(String arg[])
 {
 int arr[]={14, 16, 87, 36, 25, 89, 34};
 int len=arr.length;
