@@ -1,0 +1,14 @@
+import java.io.*;
+class R192111477
+{
+    public static void main( String args[] ) 
+    {
+        String first = "Hello"; 
+        String second = "World";
+
+        String third = first + second;
+        System.out.println(third);
+        first += second;
+        System.out.println(first);        
+    }
+}
