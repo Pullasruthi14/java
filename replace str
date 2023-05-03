@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class R192111477
+{
+  public static void main(String[] args)
+  {
+    Scanner sc=new Scanner(System.in);
+    System.out.println("enter the input stirng");
+    String inputString=sc.nextLine();
+    System.out.println("enter the charcater to replace");
+    char charToReplace=sc.next().charAt(0);
+    System.out.println("enter the replacement character");
+    char replacementChar=sc.next().charAt(0);
+    String outputString=inputString.replace(charToReplace,replacementChar);
+    System.out.println("output string"+outputString);
+    sc.close();
+  }
+}
