@@ -1,0 +1,11 @@
+import java.io.*;
+class R192111477
+{
+  public static void main(String[] args) {
+    String str1 = "JAVA PROGRAMMING";
+
+    // convert to lower case letters
+    System.out.println(str1.toLowerCase());
+
+  }
+}
