@@ -1,0 +1,14 @@
+import java.util.*;
+class R192111477
+{
+  public static void main(String[] args)
+  {
+    String str="Hello World";
+    char ch='W';
+    String substr="World";
+    int index =str.indexOf(ch);
+    System.out.println("Index of "+ ch + " in" + str +" is " + index);
+    int index =str.indexOf(substr);
+    System.out.println("Index of "+ substr + " in "+ str + " is "+ index);
+  }
+}
