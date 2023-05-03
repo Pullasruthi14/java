@@ -1,0 +1,10 @@
+import java.util.Arrays;
+public class R192111477
+{
+  public static void main(String[] args)
+  {
+    String Str="sruthi,lohith,sravya";
+    String[] StrArray=Str.split(",");
+      System.out.println(Arrays.toString(StrArray));
+  }
+}
