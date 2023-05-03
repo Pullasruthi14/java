@@ -1,0 +1,10 @@
+import java.io.*;
+public class R192111477
+{
+    public static void main(String[] args) {
+        String str = "apple";
+        String suffix = "le";
+        boolean result = str.endsWith(suffix);
+        System.out.println("Does str end with specified suffix? " + result);
+    }
+}
