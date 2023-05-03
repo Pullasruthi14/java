@@ -1,0 +1,11 @@
+import java.util.*;
+public class R192111477
+{
+public static void main(String[] args)
+{
+  String str="i am a good girl";
+  char[] charArray=str.toCharArray();
+    System.out.println(Arrays.toString(charArray));
+  }
+}
+
