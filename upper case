@@ -1,0 +1,10 @@
+import java.io.*;
+class R192111477
+{
+  public static void main(String[] args)
+  {
+    String str="Sruthi is a Good";
+  String strUpper=str.toUpperCase();
+  System.out.println(strUpper);
+}
+}
