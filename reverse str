@@ -1,0 +1,10 @@
+import java.io.*;
+public class R192111477
+{
+   public static void main(String[] args) {
+      String string = "sruthi is a good girl";
+      String reverse = new StringBuffer(string).reverse().toString();
+      System.out.println("\nString before reverse: "+string);
+      System.out.println("String after reverse: "+reverse);
+   }
+}
